@@ -16,7 +16,7 @@ function exerciseHeightSetter() {
 
    // Itereate through description sections, grab their height & apply them to corresponding exercise column, in px
    descriptionSections.forEach((dSection, index) => {
-      const fixedHeight = dSection.children[0].clientHeight
+      const fixedHeight = dSection.children[0].offsetHeight
       exerciseSections[index].children[0].style.height = `${fixedHeight}px`
    })
 }

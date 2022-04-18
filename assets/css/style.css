@@ -61,6 +61,6 @@ h1 {
 /*=============================================
 =                  EXERCISE                   =
 =============================================*/
-.exercise .row {
+.exercise > div {
    background-color: var(--color-primary);
 }
